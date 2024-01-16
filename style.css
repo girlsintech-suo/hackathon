@@ -1,0 +1,168 @@
+@import url("C:/Users/tithi/OneDrive/Documents/UBC/GiT/fiery_turk/Fiery_Turk.ttf");
+
+header {
+    background-position: 0%;
+    background-color: black;
+    color: blanchedalmond;
+    padding: 25px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Fiery Turk";
+    src: url("C:/Users/tithi/OneDrive/Documents/UBC/GiT/fiery_turk/Fiery_Turk.ttf");
+    format: ("truetype");
+}
+
+@font-face {
+    font-family: "AG";
+    src: url("C:/Users/tithi/OneDrive/Documents/UBC/GiT/Akzidenz Grotesk Font/Akzidenz-Grotesk/AkzidenzGroteskBE-Regular.otf");
+    format: ("truetype");
+}
+
+@font-face {
+    font-family: "AGB";
+    src: url("C:/Users/tithi/OneDrive/Documents/UBC/GiT/Akzidenz Grotesk Font/Akzidenz-Grotesk/AkzidenzGroteskBE-BoldEx.otf");
+    format: ("truetype");
+}
+
+@font-face {
+    font-family: "SSR";
+    src: url("C:/Users/tithi/OneDrive/Documents/UBC/GiT/sloop/Sloop Script Regular.ttf");
+    format: ("truetype");
+}
+
+.navbar {
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+    position: sticky;
+}
+
+.navbar a {
+    background-color: black;
+    font-family: "Fiery Turk", sans-serif;
+    color: pink;
+    display: inline-block;
+    text-decoration-line: none;
+
+}
+
+body {
+    background-color: #202020;
+    align-items: center;
+}
+
+.hack {
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: "AG";
+    font-size: 5em;
+    justify-content: center;
+    margin-top: 75px;
+    line-height: 0.8;
+    color: #ac939d;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: "AGB";
+    font-size: 5em;
+    justify-content: center;
+    padding: 0%;
+    margin: 0px;
+    line-height: 0.8;
+    color: #ac939d;
+}
+
+.your {
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: "SSR";
+    font-size: 5em;
+    justify-content: center;
+    padding: 0%;
+    margin: 0px;
+    line-height: 0.8;
+    
+    font-size: 6em;
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+        -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+        0 -0.5rem 2rem #ff24d3, 0 0.5rem 3rem #ff2483;
+    animation: shine 2s forwards, flicker 3s infinite;
+}
+
+.letter {
+    margin: 0 0.1em;
+}
+
+@keyframes blink {
+    0%, 22%, 36%, 75% {
+        color: #ff36ff;
+        text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+            -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+            0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+    }
+    28%, 33% {
+        color: #ff65bd;
+        text-shadow: none;
+    }
+    82%, 97% {
+        color: #ff2483;
+        text-shadow: none;
+    }
+}
+
+.flicker {
+    animation: shine 2s forwards, blink 3s 2s infinite;
+}
+
+.fast-flicker {
+    animation: shine 2s forwards, blink 10s 1s infinite;
+}
+
+@keyframes shine {
+    0% {
+        color: #6b1839;
+        text-shadow: none;
+    }
+
+    100% {
+        color: #ffe6ff;
+        text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+            -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+            0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+    }
+}
+
+@keyframes flicker {
+    from {opacity: 1;}
+    4% {opacity: 0.9;}
+    12% {opacity: 0.85;}
+    20% {opacity: 0.7;}
+    to {opacity: 1;}
+}
+.register{
+    flex-direction: column;
+    height: 100vh;
+}
+form{
+    display: flex;
+    align-items: center;
+}
+input[type= "submit"]{
+    background-color: #ff65bd;
+    color: antiquewhite;
+    font-family: "Fiery Turk";
+    border: #ff2483;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    align-items: center;
+}
