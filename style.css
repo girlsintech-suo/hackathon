@@ -35,30 +35,35 @@ header {
 }
 
 .navbar {
-    display: block;
+    
     justify-content: space-between;
     text-align: center;
     position: sticky;
 }
 
+
+th{
+    padding: 5px;
+    font-size: large;
+}
 .navbar a {
     background-color: black;
     font-family: "Fiery Turk", sans-serif;
     color: pink;
     display: inline-block;
     text-decoration-line: none;
-
+    
 }
 
 body {
     background-color: #202020;
-    align-items: center;
+    justify-content: center;
 }
 
 .hack {
     display: flex;
     flex-wrap: nowrap;
-    font-family: "AG";
+    font-family: "AGB";
     font-size: 5em;
     justify-content: center;
     margin-top: 75px;
@@ -66,22 +71,10 @@ body {
     color: #ac939d;
 }
 
-.skills {
+.attack {
     display: flex;
     flex-wrap: nowrap;
-    font-family: "AGB";
-    font-size: 5em;
-    justify-content: center;
-    padding: 0%;
-    margin: 0px;
-    line-height: 0.8;
-    color: #ac939d;
-}
-
-.your {
-    display: flex;
-    flex-wrap: nowrap;
-    font-family: "SSR";
+    font-family: "Fiery Turk";
     font-size: 5em;
     justify-content: center;
     padding: 0%;
@@ -94,10 +87,6 @@ body {
         -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
         0 -0.5rem 2rem #ff24d3, 0 0.5rem 3rem #ff2483;
     animation: shine 2s forwards, flicker 3s infinite;
-}
-
-.letter {
-    margin: 0 0.1em;
 }
 
 @keyframes blink {
@@ -149,18 +138,19 @@ body {
 .register{
     flex-direction: column;
     height: 100vh;
+    
 }
 form{
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 input[type= "submit"]{
-    background-color: #ff65bd;
+    background-color: #de88ad;
     color: antiquewhite;
     font-family: "Fiery Turk";
-    border: #ff2483;
+    border: #de88ad;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 4px 10px;
     cursor: pointer;
-    align-items: center;
+    margin: 35px;
 }
