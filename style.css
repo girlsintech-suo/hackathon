@@ -24,13 +24,13 @@ header {
 
 @font-face {
     font-family: "AGB";
-    src: url("C:/Users/tithi/OneDrive/Documents/UBC/GiT/Akzidenz Grotesk Font/Akzidenz-Grotesk/AkzidenzGroteskBE-BoldEx.otf");
+    src: url("fonts/Akzidenz Grotesk Font/Akzidenz-Grotesk/AkzidenzGroteskBE-BoldEx.otf");
     format: ("truetype");
 }
 
 @font-face {
     font-family: "SSR";
-    src: url("C:/Users/tithi/OneDrive/Documents/UBC/GiT/sloop/Sloop Script Regular.ttf");
+    src: url("fonts/sloop/Sloop Script Regular.ttf");
     format: ("truetype");
 }
 
