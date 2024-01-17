@@ -1,5 +1,3 @@
-@import url("C:/Users/tithi/OneDrive/Documents/UBC/GiT/fiery_turk/Fiery_Turk.ttf");
-
 header {
     background-position: 0%;
     background-color: black;
@@ -14,25 +12,25 @@ header {
 
 @font-face {
     font-family: "Fiery Turk";
-    src: url("fonts/fiery_turk/Fiery_Turk.ttf");
+    src: url("C:/Users/tithi/OneDrive/Documents/UBC/GiT/fiery_turk/Fiery_Turk.ttf");
     format: ("truetype");
 }
 
 @font-face {
     font-family: "AG";
-    src: url("fonts/Akzidenz Grotesk Font/Akzidenz-Grotesk/AkzidenzGroteskBE-Regular.otf");
+    src: url("C:/Users/tithi/OneDrive/Documents/UBC/GiT/Akzidenz Grotesk Font/Akzidenz-Grotesk/AkzidenzGroteskBE-Regular.otf");
     format: ("truetype");
 }
 
 @font-face {
     font-family: "AGB";
-    src: url("fonts/Akzidenz Grotesk Font/Akzidenz-Grotesk/AkzidenzGroteskBE-BoldEx.otf");
+    src: url("C:/Users/tithi/OneDrive/Documents/UBC/GiT/Akzidenz Grotesk Font/Akzidenz-Grotesk/AkzidenzGroteskBE-BoldEx.otf");
     format: ("truetype");
 }
 
 @font-face {
     font-family: "SSR";
-    src: url("fonts/sloop/Sloop Script Regular.ttf");
+    src: url("C:/Users/tithi/OneDrive/Documents/UBC/GiT/sloop/Sloop Script Regular.ttf");
     format: ("truetype");
 }
 
