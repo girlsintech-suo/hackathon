@@ -56,7 +56,7 @@ th{
 }
 
 body {
-    background-color: #202020;
+    background-color: #ffc0cb;
     justify-content: center;
 }
 
@@ -149,6 +149,7 @@ input[type= "submit"]{
     background-color: #de88ad;
     color: antiquewhite;
     font-family: "Fiery Turk";
+    font-size: medium;
     border: #de88ad;
     border-radius: 5px;
     padding: 4px 10px;
@@ -159,23 +160,27 @@ input[type= "submit"]{
 
 #countdown{    
     margin: auto;
-    background-color: #eaaabf;
-    border-radius: 5px;
-    box-shadow: 5px 10px 10px #8d8488;
+    background-color: #ffc0cb;
     text-align: center;
     display: block;
-    width: fit-content;
     height: fit-content;
     padding: 10px 10px;
 }
 
 #timer{
-    font-family: "Fiery Turk";
+    font-family: "Brasika";
     font-size: 20pt;
     letter-spacing: 2px;
 }
 
 .timeunit{
-    font-family: "Fiery Turk";
+    font-family: "AGB";
     font-size: 1.2rem;
+}
+
+#theme{
+    background-color: #ffc0cb;
+    color: #ac939d;
+    text-align: center;
+    font-family: "AGB";
 }
