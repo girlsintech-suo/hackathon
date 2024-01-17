@@ -12,13 +12,13 @@ header {
 
 @font-face {
     font-family: "Fiery Turk";
-    src: url("C:/Users/tithi/OneDrive/Documents/UBC/GiT/fiery_turk/Fiery_Turk.ttf");
+    src: url("fonts/fiery_turk/Fiery_Turk.ttf");
     format: ("truetype");
 }
 
 @font-face {
     font-family: "AG";
-    src: url("C:/Users/tithi/OneDrive/Documents/UBC/GiT/Akzidenz Grotesk Font/Akzidenz-Grotesk/AkzidenzGroteskBE-Regular.otf");
+    src: url("fonts/Akzidenz-Grotesk/AkzidenzGroteskBE-Regular.otf");
     format: ("truetype");
 }
 
