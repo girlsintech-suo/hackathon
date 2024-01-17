@@ -153,4 +153,26 @@ input[type= "submit"]{
     padding: 4px 10px;
     cursor: pointer;
     margin: 35px;
+    margin-bottom: 0px;
+}
+
+#countdown{    
+    margin: auto;
+    background-color: #ac939d;
+    padding: 40px 60px;
+    border-radius: 15px;
+    box-shadow: 0 20px 25px #6b1839;
+    text-align: center;
+    display: block;
+}
+
+#timer{
+    font-family: "Fiery Turk";
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+.timeunit{
+    font-family: "Fiery Turk";
+    font-size: 1.2rem;
 }
