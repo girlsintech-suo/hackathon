@@ -90,6 +90,14 @@ section {
     font-size: 110px;
     letter-spacing: 15px;
 }
+.home h3{
+    font-family: "AGB";
+    color:#FCB6FF;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    font-size: 30px;
+}
 
 .register{
     flex-direction: column;
@@ -162,7 +170,7 @@ input[type= "submit"]{
   .dot {
     position: absolute;
     width: 800px;
-    height: 600px;
+    height: 475px;
     background-color: transparent; /* Transparent background */
     border: 2px solid #202020; /* Border for hollow appearance */
     border-radius: 50%;
