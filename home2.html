@@ -12,11 +12,11 @@
 <body>
     <div class="navbar1">
         <nav>
-        <ul>
-            <li><a href ="#1">HOME</a></li>
-            <li><a href ="#2">DETAILS</a></li>
-            <li><a href ="#3">SPONSORS</a></li>
-        </ul>
+            <ul>
+                <li><a href ="#1">HOME</a></li>
+                <li><a href ="#2">DETAILS</a></li>
+                <li><a href ="#3">SPONSORS</a></li>
+            </ul>
         </nav>
     </div>
     <div class="container">
@@ -26,22 +26,39 @@
             <h3>GiT</h3>
             <img src="./handDown.png" id="down">
             <img src="./handUp.png" id="up">
-            <div class="setCircle">
+            
+            <!--<div class="setCircle">
                 <div class="circle">
-                  <div class="dot"></div>
-                  <div class="dot"></div>
-                  <div class="dot"></div>
-                  <div class="dot"></div>
-                  <div class="dot"></div>
-                  <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
                 </div>
-            </div>
+            </div>-->
+
             <div class="register">
                 <form action="https://forms.fillout.com/t/g2j584KzKSus">
                     <input type="submit" value="REGISTER">
                 </form>
-            </div> 
+            </div>
+
+            <script src="countdown.js"></script>
+            <div id="countdown">
+                <p id="timer">
+                    <span id="days"></span>
+                    <span class="timeunit">Days</span>
+                    <span id="hours"></span>
+                    <span class="timeunit">Hours</span>
+                    <span id="mins"></span>
+                    <span class="timeunit">Minutes</span>
+                    <span id="secs"></span>
+                    <span class="timeunit">Seconds</span>
+                </p>
+            </div>
         </section>
+        
         <section class="details" id="2">
             <h1>Details</h1>
         </section>

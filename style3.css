@@ -28,9 +28,141 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "AGB", sans-serif;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #202020;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
 }
 
+.navbar a{
+    display: inline-block;
+    color: #ffb6d9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background: #ffb6d9;
+    color: #202020;
+}
+
+.home{
+    padding-top: 10%;
+    background-color: #202020;
+    color:#ffa8c6;
+    text-align: center;
+    height: 550px;
+}
+
+.home h1, h2{
+    font-size: 5em;
+    font-family: "Brasika";
+    line-height: 85px;
+    text-shadow: 
+        0 0 7px #ffc4d9,
+        0 0 10px #d899c3,
+        0 0 21px #d899c3,
+        0 0 42px #b18ac0,
+        0 0 82px rgb(185, 135, 233),
+        0 0 92px rgb(0, 174, 255);
+
+}
+
+
+.home h2{
+    font-size: 5.5em;
+    letter-spacing: 6px;
+}
+.register{
+    margin-top: 3%;
+    
+}
+.register a{
+    padding: 1%;
+    background-color: #3b57a5;
+    color: #ffc4d9;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#timer{
+    margin-top: 5%;
+    padding-top: 3%;
+    font-family: "AGB";
+    font-size: 20pt;
+    letter-spacing: 2px;
+    color: #d899c3;
+    text-shadow: #ffc4d9;
+}
+
+.timeunit{
+    font-family: "AGB";
+    font-size: 1.2rem;
+}
+
+.hands #down{
+   float: left;
+   width: 28%;
+}
+
+.hands #up{
+    float: right;
+    width: 30%;
+    margin-top: 0%;
+}
+
+#info {
+    padding: 2%;
+    text-align: left;
+    background-color: #1f2c52;
+    color: #ffc4d9;
+    height: 300px;
+    text-align: center;
+}
+#info h1{
+    padding-bottom: 2%;
+}
+
+details{
+    background-color: #3b57a5;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  summary {
+    padding: .5em 1.3rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;  
+    transition: height 1s ease;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  summary:after{
+    content: "\002B";
+  }
+  
+  details[open] summary {
+      border-bottom: 1px solid #aaa;
+  }
+  
+  details[open] summary:after{
+    content: "\00D7";
+  }
+  
+  details[open] div{
+    padding: .5em 1em;
+    background-color: #b18ac0;
+  }
+/*
 nav{
     position: fixed;
     width: 100%;
@@ -66,29 +198,23 @@ nav{
     color: #000000;
 }
 
-section {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .home {
     background-color: #202020;
+    width: 100%;
 }
 
 .home h1{
     font-family: "Brasika";
-    color: #FFFFFF;
+    color: #ffb6d9;
     position: absolute;
-    top: 32%;
-    left: 38%;
+   text-align: center;
     font-size: 90px;
     letter-spacing: 5px;
 }
 .home h2{
     font-family: "Brasika";
-    color: #FFFFFF;
+    color: #ffb6d9;
     position: absolute;
     top: 47%;
     left: 28%;
@@ -128,91 +254,10 @@ input[type= "submit"]{
     left: 46%;
 }
 
-.details {
-    background-color: #FFF1E6;
-}
-.details h1{
-    color: #000000;
-}
-.sponsors {
-    background-color: #202020;
-}
-.sponsors h1{
-    color: #FFF1E6;
-}
-.footer{
-    height: 75vh;
-    background-color: #FCB6FF;
-}
-
-#down{
-    width: 300px;
-    position: absolute;
-    top: 40%;
-    left: 0%;
-}
-#up{
-    width: 300px;
-    position: absolute;
-    top: 13%;
-    right: 0%;
-}
-/*
-.setCircle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-  }
-
-  .circle {
-    position: relative;
-    width: 300px;
-    height: 300px;
-  }
-
-  .dot {
-    position: absolute;
-    width: 800px;
-    height: 475px;
-    background-color: transparent;  Transparent background 
-    border: 2px solid #202020; Border for hollow appearance 
-    border-radius: 50%;
-    animation: glow 2s infinite alternate;
-    box-sizing: border-box;  Include border in the overall size 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  @keyframes glow {
-    0%, 100% {
-      box-shadow: 0 0 10px #FFF1E6, 0 0 20px #FFF1E6, 0 0 30px #FFF1E6;
-    }
-    50% {
-      box-shadow: 0 0 20px #FFF1E6, 0 0 40px #FFF1E6, 0 0 60px #FFF1E6;
-    }
-    75% {
-      box-shadow: 0 0 10px #FFF1E6, 0 0 20px #FFF1E6, 0 0 30px #FFF1E6;
-    }
-  }
-  */
   #countdown{    
     margin-top: 350px;
     text-align: center;
     display: block;
     height: fit-content;
     padding: 10px 10px;
-}
-
-#timer{
-    font-family: "Brasika";
-    font-size: 20pt;
-    letter-spacing: 2px;
-}
-
-.timeunit{
-    font-family: "AGB";
-    font-size: 1.2rem;
-}
+}*/
