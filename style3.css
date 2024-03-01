@@ -29,6 +29,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "AGB", sans-serif;
+    background-color: #fff1e6;
 }
 
 .navbar {
@@ -46,7 +47,8 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 55%;
+    background-color: #202020;
 }
 
 .navbar a:hover {
@@ -56,15 +58,14 @@
 
 .home {
     padding-top: 10%;
-    background-color: #202020;
     color: #ffa8c6;
     text-align: center;
-    height: 555px;
+    height: 58%;
 }
 
 .home h1,
 h2 {
-    font-size: 5em;
+    font-size: 350%;
     font-family: "Brasika";
     line-height: 85px;
     text-shadow:
@@ -79,25 +80,24 @@ h2 {
 
 
 .home h2 {
-    font-size: 5.5em;
+    font-size: 400%;
     letter-spacing: 6px;
 }
 
 .register {
     margin-top: 3%;
-
 }
 
 .register a {
     padding: 1%;
-    background-color: #3b57a5;
+    background-color: #7418f0;
     color: #ffc4d9;
     text-decoration: none;
     border-radius: 5px;
 }
 
 #timer {
-    margin-top: 5%;
+    margin-top: 2%;
     padding-top: 3%;
     font-family: "AGB";
     font-size: 20pt;
@@ -125,26 +125,30 @@ h2 {
 #info {
     padding: 2%;
     text-align: left;
-    background-color: #1f2c52;
     color: #ffc4d9;
     height: 300px;
     text-align: center;
+    padding: 2%;
+    height: 43%;
+    margin: 3%;
 }
 
 #info h1 {
     padding-bottom: 2%;
+    background-color: #51a9c3;
 }
 
 details {
-    background-color: #3b57a5;
     color: #fff;
     font-size: 1rem;
+    background-color: #51a9c3;
 }
 
 summary {
     padding: .5em 1.3rem;
     list-style: none;
     display: flex;
+    background-color: #51a9c3;
     justify-content: space-between;
     transition: height 1s ease;
     text-align: left;
@@ -168,7 +172,31 @@ details[open] summary:after {
 
 details[open] div {
     padding: .5em 1em;
-    background-color: #9c7ca7;
+    background-color: #192362;
+}
+
+.sponsors{
+    text-align: center;
+    height: 40%;
+    padding: 2%;
+    padding-top: 1%;
+    
+}
+.sponsors h1{
+    color: #202020;
+}
+
+.footer{
+    text-align: center;
+    background-color: #192362;
+    height: 50%;
+}
+
+.footer #about-us p{
+    background-color: #ffb6d9;
+    font-size: 60%;
+    color: #192362;
+    padding: 3%;
 }
 
 /*
