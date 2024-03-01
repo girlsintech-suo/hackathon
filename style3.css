@@ -24,13 +24,14 @@
     format: ("truetype");
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "AGB", sans-serif;
 }
-.navbar{
+
+.navbar {
     overflow: hidden;
     background-color: #202020;
     position: fixed;
@@ -39,32 +40,34 @@
     text-align: center;
 }
 
-.navbar a{
+.navbar a {
     display: inline-block;
     color: #ffb6d9;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 1em;
 }
 
-.navbar a:hover{
+.navbar a:hover {
     background: #ffb6d9;
     color: #202020;
 }
 
-.home{
+.home {
     padding-top: 10%;
     background-color: #202020;
-    color:#ffa8c6;
+    color: #ffa8c6;
     text-align: center;
-    height: 550px;
+    height: 555px;
 }
 
-.home h1, h2{
+.home h1,
+h2 {
     font-size: 5em;
     font-family: "Brasika";
     line-height: 85px;
-    text-shadow: 
+    text-shadow:
         0 0 7px #ffc4d9,
         0 0 10px #d899c3,
         0 0 21px #d899c3,
@@ -75,22 +78,25 @@
 }
 
 
-.home h2{
+.home h2 {
     font-size: 5.5em;
     letter-spacing: 6px;
 }
-.register{
+
+.register {
     margin-top: 3%;
-    
+
 }
-.register a{
+
+.register a {
     padding: 1%;
     background-color: #3b57a5;
     color: #ffc4d9;
     text-decoration: none;
     border-radius: 5px;
 }
-#timer{
+
+#timer {
     margin-top: 5%;
     padding-top: 3%;
     font-family: "AGB";
@@ -100,19 +106,19 @@
     text-shadow: #ffc4d9;
 }
 
-.timeunit{
+.timeunit {
     font-family: "AGB";
     font-size: 1.2rem;
 }
 
-.hands #down{
-   float: left;
-   width: 28%;
+.hands #down {
+    float: left;
+    width: 25%;
 }
 
-.hands #up{
+.hands #up {
     float: right;
-    width: 30%;
+    width: 25%;
     margin-top: 0%;
 }
 
@@ -124,44 +130,47 @@
     height: 300px;
     text-align: center;
 }
-#info h1{
+
+#info h1 {
     padding-bottom: 2%;
 }
 
-details{
+details {
     background-color: #3b57a5;
     color: #fff;
     font-size: 1rem;
-  }
-  
-  summary {
+}
+
+summary {
     padding: .5em 1.3rem;
     list-style: none;
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
     transition: height 1s ease;
-  }
-  
-  summary::-webkit-details-marker {
+    text-align: left;
+}
+
+summary::-webkit-details-marker {
     display: none;
-  }
-  
-  summary:after{
+}
+
+summary:after {
     content: "\002B";
-  }
-  
-  details[open] summary {
-      border-bottom: 1px solid #aaa;
-  }
-  
-  details[open] summary:after{
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+}
+
+details[open] summary:after {
     content: "\00D7";
-  }
-  
-  details[open] div{
+}
+
+details[open] div {
     padding: .5em 1em;
-    background-color: #b18ac0;
-  }
+    background-color: #9c7ca7;
+}
+
 /*
 nav{
     position: fixed;
