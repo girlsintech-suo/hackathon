@@ -39,6 +39,7 @@
     top: 0;
     width: 100%;
     text-align: center;
+    align-items: center;
 }
 
 .navbar a {
@@ -47,7 +48,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 55%;
+    font-size: 80%;
     background-color: #202020;
 }
 
@@ -56,14 +57,14 @@
     color: #202020;
 }
 
-.home {
+#home {
     padding-top: 10%;
     color: #ffa8c6;
     text-align: center;
     height: 58%;
 }
 
-.home h1,
+#home h1,
 h2 {
     font-size: 350%;
     font-family: "Brasika";
@@ -79,7 +80,7 @@ h2 {
 }
 
 
-.home h2 {
+#home h2 {
     font-size: 400%;
     letter-spacing: 6px;
 }
@@ -175,24 +176,24 @@ details[open] div {
     background-color: #192362;
 }
 
-.sponsors{
+#sponsors{
     text-align: center;
     height: 40%;
     padding: 2%;
     padding-top: 1%;
     
 }
-.sponsors h1{
+#sponsors h1{
     color: #202020;
 }
 
-.footer{
+#footer{
     text-align: center;
     background-color: #192362;
     height: 50%;
 }
 
-.footer #about-us p{
+#footer #about-us p{
     background-color: #ffb6d9;
     font-size: 0.75em;
     color: #192362;
