@@ -66,22 +66,15 @@
 
 #home h1,
 h2 {
-    font-size: 350%;
+    font-size: 450%;
     font-family: "Brasika";
     line-height: 85px;
-    text-shadow:
-        0 0 7px #ffc4d9,
-        0 0 10px #d899c3,
-        0 0 21px #d899c3,
-        0 0 42px #b18ac0,
-        0 0 82px rgb(185, 135, 233),
-        0 0 92px rgb(0, 174, 255);
-
+    text-shadow: #192362;
 }
 
 
 #home h2 {
-    font-size: 400%;
+    font-size: 550%;
     letter-spacing: 6px;
 }
 
@@ -115,12 +108,14 @@ h2 {
 .hands #down {
     float: left;
     width: 25%;
+    z-index: 2;
 }
 
 .hands #up {
     float: right;
     width: 25%;
     margin-top: 0%;
+    z-index: 2;
 }
 
 #info {
@@ -185,6 +180,7 @@ details[open] div {
 }
 #sponsors h1{
     color: #202020;
+    padding-bottom: 2%;
 }
 
 #footer{
