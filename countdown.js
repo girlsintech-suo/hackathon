@@ -25,6 +25,6 @@ const interval= setInterval(updateCountdown, 1000);
 
 if(diff< 0){
     clearInterval(interval);
-    document.getElementById("timer").innerText= "Get Coding!";
+    document.getElementById("timer").innerText= "Get Hacking!";
 }
 
