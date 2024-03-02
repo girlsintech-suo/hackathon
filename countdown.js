@@ -1,7 +1,7 @@
 const currdate= new Date();
 console.log(currdate);
 
-const enddate= new Date('2024-03-01T19:00:00');
+const enddate= new Date('2024-03-01T19:30:00');
 
 const diff= enddate-currdate;
 console.log(diff);
